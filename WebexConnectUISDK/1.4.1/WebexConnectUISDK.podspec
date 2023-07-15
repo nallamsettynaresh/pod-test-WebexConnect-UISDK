@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
     s.author       = { 'Webex Connect SDK team' => 'wxconnectsdk@cisco.com' }
     s.source       = { :http => 'https://github.com/nallamsettynaresh/pod-test-WebexConnect-UISDK/releases/download/1.4.1/WebexConnectUISDK.zip' }
     s.ios.deployment_target = '11.0'
-    s.vendored_frameworks = 'WebexConnectUISDK/Frameworks/*.xcframework'
+    s.vendored_frameworks = 'Frameworks/*.xcframework'
     s.swift_version = '5.0'
 end
